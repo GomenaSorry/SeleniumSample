@@ -8,7 +8,7 @@ using SeleniumSample.Settings;
 
 namespace SeleniumSample.StepDefinitions
 {
-    [Binding]
+    //[Binding]
     public class HookSampleStepDefinition
     {
         private readonly ScenarioContext _scenarioContext;

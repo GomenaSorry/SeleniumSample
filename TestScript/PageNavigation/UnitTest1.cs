@@ -11,14 +11,14 @@ namespace SeleniumSample.TestScript.PageNavigation
     [TestClass]
     public class UnitTest1
     {
-        //[TestMethod]
-        //public void TestMethod1()
-        //{
-        //    IWebDriver driver = new ChromeDriver();
-        //    driver.Navigate().GoToUrl("http://www.google.com");
-        //    driver.Close();
-        //    driver.Quit();
-        //}
+        [TestMethod]
+        public void TestMethod1()
+        {
+            IWebDriver driver = new ChromeDriver();
+            driver.Navigate().GoToUrl("http://www.google.com");
+            driver.Close();
+            driver.Quit();
+        }
 
         //[TestMethod]
         //public void TestMethod2()
@@ -29,10 +29,10 @@ namespace SeleniumSample.TestScript.PageNavigation
         //    Console.WriteLine("Password : {0}", config.GetPassword());
         //}
 
-        [TestMethod]
-        public void TestMethod1()
-        {
-            Console.WriteLine("Test");
-        }
+        //[TestMethod]
+        //public void TestMethod1()
+        //{
+        //    Console.WriteLine("Test");
+        //}
     }
 }
